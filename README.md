@@ -2,8 +2,6 @@
 
 Welcome to the Mini Loan App! This application provides a platform for managing loans for both administrators and clients.
 
-## About the Application
-The Mini Loan App offers a seamless experience for users to register, request loans with customized terms, and manage their repayments. Administrators have the authority to review loan requests, approve or reject them, and monitor the overall loan portfolio.
 
 ## Features
 1. User Registration and Loan Request
