@@ -2,13 +2,11 @@
 
 Welcome to the Mini Loan App! This application provides a platform for managing loans for both administrators and clients.
 
-
-## Features
+## Features 
 1. User Registration and Loan Request
 2. Loan Approval Process
 3. Repayment Management
 4. Additional Loan Requests
-
 
 ## Cloning the Project from GitHub
 
@@ -22,7 +20,6 @@ To clone the Mini Loan App project from GitHub, follow these steps:
    git clone https://github.com/your-username/mini-loan-app.git
    
    cd mini-loan-app
-
 
 ### Running on Local Server
 
@@ -48,8 +45,6 @@ To upgrade a user to an administrator:
 3. Select the user you want to upgrade.
 4. Modify the user's profile in the MongoDB database, changing the `user_type` field from "user" to "admin".
 5. The user will now have administrative privileges and can access the admin features of the application.
-
-
 
 
 Feel free to explore and enjoy managing your loans!
