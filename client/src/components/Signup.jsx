@@ -4,11 +4,11 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import "react-toastify/dist/ReactToastify.css";
 import { toast } from "react-toastify";
+
 const Signup = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  //   const { setLoggedIn } = useContext(AuthContext);
   const navigate = useNavigate();
   const { setLoggedIn, setToken, setUser } = useContext(AuthContext);
 
