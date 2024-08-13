@@ -122,14 +122,14 @@ export const repayLoan = async (req, res) => {
 export const deleteLoan = async (req, res) => {
   try {
     const { id } = req.params;
-    console.log("Deleting loan with ID:", id); // Log the ID for debugging
+    console.log("Deleting loan with ID:", id); 
     const deletedLoan = await Loan.findByIdAndDelete(id);
     if (!deletedLoan) {
       return res.status(404).json({ error: "Loan not found" });
     }
     return res.status(200).json({ message: "Loan deleted successfully" });
   } catch (error) {
-    console.error("Error deleting loan:", error); // Log the error for debugging
+    console.error("Error deleting loan:", error); 
     return res.status(500).json({ error: "Server error" });
   }
 };
