@@ -46,6 +46,4 @@ To upgrade a user to an administrator:
 4. Modify the user's profile in the MongoDB database, changing the `user_type` field from "user" to "admin".
 5. The user will now have administrative privileges and can access the admin features of the application.
 
-
 Feel free to explore and enjoy managing your loans!
-
