@@ -75,6 +75,7 @@ function App() {
       {/* <Login /> */}
       {/* <Signup/> */}
       {/* <Home /> */}
+      
       <AuthContext.Provider
         value={{
           isLoggedIn,
