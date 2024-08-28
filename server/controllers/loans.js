@@ -76,7 +76,7 @@ export const repayLoan = async (req, res) => {
         return total;
       }, 0);
 
-      // Calculate the ratio of the additional amount to the total remaining amount
+     
       const ratio = additionalAmount / totalRemainingAmount;
 
       // Distribute the additional amount proportionally among the remaining installments
@@ -85,8 +85,7 @@ export const repayLoan = async (req, res) => {
           inst.amount -= Math.round(inst.amount * ratio);
         }
       });
-
-      // Add the additional amount to the paid installment
+      
       installment.amount += additionalAmount;
       installment.status = "paid";
 
