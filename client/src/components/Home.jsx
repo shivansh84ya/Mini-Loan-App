@@ -57,7 +57,6 @@ const Home = () => {
       toast.error(`Can't update status!`);
     }
   };
-
   const updatePayment = async (loanId, installmentId, additionalAmount) => {
     try {
       await axios.patch(
