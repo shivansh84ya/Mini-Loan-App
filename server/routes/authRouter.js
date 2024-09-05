@@ -5,7 +5,9 @@ import { verifyLogin } from "../controllers/utils.js";
 const authRouter = Router();
 
 authRouter.post('/login', login)
+
 authRouter.post('/signup', signup)
+
 authRouter.get('/', verifyLogin, verifyUser)
 
 export default authRouter;
