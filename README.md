@@ -8,6 +8,7 @@ Welcome to the Mini Loan App! This application provides a platform for managing 
 3. Repayment Management
 4. Additional Loan Requests
 
+
 ## Cloning the Project from GitHub
 
 To clone the Mini Loan App project from GitHub, follow these steps:
