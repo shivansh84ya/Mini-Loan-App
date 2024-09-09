@@ -47,3 +47,4 @@ To upgrade a user to an administrator:
 5. The user will now have administrative privileges and can access the admin features of the application.
 
 Feel free to explore and enjoy managing your loans!
+
