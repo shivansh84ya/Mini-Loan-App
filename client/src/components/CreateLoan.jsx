@@ -63,7 +63,7 @@ const CreateLoan = () => {
             type="submit"
             className="bg-blue-500 text-white px-4 py-3 rounded-md w-full hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-200"
           >
-            Submit Application
+            Submit Application 
           </button>
         </form>
       </div>
