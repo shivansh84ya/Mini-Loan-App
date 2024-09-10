@@ -24,7 +24,7 @@ const CreateLoan = () => {
           },
         }
       );
-      toast.success("Loan created successfully!");
+      toast.success("Loan created successfully");
       navigate("/");
     } catch (error) {
       console.error(error);
