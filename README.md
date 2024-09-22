@@ -3,13 +3,13 @@
 Welcome to the Mini Loan App! This application provides a platform for managing loans for both administrators and clients.
 
 
-## Features 
+## Features : 
 1. User Registration and Loan Request
 2. Loan Approval Process
 3. Repayment Management
 4. Additional Loan Requests
 
-## Cloning the Project from GitHub
+## Cloning the Project from GitHub : 
 
 To clone the Mini Loan App project from GitHub, follow these steps:
 
