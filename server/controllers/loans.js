@@ -89,7 +89,7 @@ export const repayLoan = async (req, res) => {
       installment.amount += additionalAmount;
       installment.status = "paid";
 
-      // Recalculate the remaining amount based on the updated installment amounts and statuses
+      
       loan.remainingAmount = loan.repayments.reduce((total, inst) => {
         if (inst.status !== "paid") {
           return total + inst.amount;
