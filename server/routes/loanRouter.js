@@ -7,6 +7,7 @@ import {
     deleteLoan,
 } from "../controllers/loans.js";
 import { verifyLogin } from "../controllers/utils.js";
+
 const loanRouter = Router();
 
 loanRouter.get("/", verifyLogin, getLoans);
