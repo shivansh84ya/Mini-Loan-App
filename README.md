@@ -2,7 +2,6 @@
 
 Welcome to the Mini Loan App! This application provides a platform for managing loans for both administrators and clients.
 
-
 ## Features : 
 1. User Registration and Loan Request
 2. Loan Approval Process
